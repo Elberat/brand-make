@@ -1,0 +1,39 @@
+.primary,
+.outlined {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: center;
+  font-weight: 500;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  transition: .3s ease;
+}
+
+.primary {
+  background: linear-gradient(180deg, #FBE366 0%, #ED9100 79.97%);
+  color: #242424;
+}
+
+.primary:hover {
+  box-shadow: 0 0 12px 0 var(--yellow-secondary);
+}
+
+.outlined {
+  background-color: transparent;
+  color: var(--white);
+  border: 2px solid var(--yellow);
+}
+
+.outlined:hover {
+  border: 2px solid var(--white);
+}
+
+
+.primary img,
+.outlined img,
+.primary svg,
+.outlined svg {
+  margin-right: 8px;
+}

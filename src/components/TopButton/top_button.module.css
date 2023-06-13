@@ -1,0 +1,44 @@
+.topButton {
+  position: fixed;
+  bottom: 10px;
+  right: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: 1px solid #3F3F3F;
+  background: var(--yellow);
+  cursor: pointer;
+  animation: pulsation 2s infinite linear;
+  transition: .3s ease-out;
+  z-index: 2;
+}
+
+.topButton:hover {
+  background-color: var(--black);
+}
+
+@keyframes pulsation {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+  50% {
+    transform: scale(1.1);
+    opacity: .9;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@media (max-width:820px) {
+  .topButton {
+    display: none;
+  }
+}

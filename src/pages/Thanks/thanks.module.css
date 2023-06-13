@@ -1,0 +1,9 @@
+.thankText {
+  margin-bottom: 95px;
+}
+
+@media (max-width: 820px) {
+  .thankText {
+    margin-bottom: 40px;
+  }
+}

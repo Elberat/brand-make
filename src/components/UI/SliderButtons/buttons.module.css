@@ -1,0 +1,54 @@
+.sliderButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.disableArrow,
+.arrow {
+  clip-path: polygon(10% 0, 100% 0%, 90% 100%, 0% 100%);
+  background-color: var(--yellow);
+  padding: 33px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.disableArrow {
+  background-color: #4C4C4C;
+  cursor: default;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+}
+
+.paginationButton,
+.paginationButtonActive {
+  cursor: pointer;
+  background-color: rgba(245, 166, 35, .5);
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  height: 4px;
+  width: 32px;
+  transition: .3s ease;
+}
+
+.paginationButtonActive {
+  background-color: rgba(245, 166, 35, 1);
+  height: 5px;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 820px) {
+  .sliderButtons {
+    display: none;
+  }
+}

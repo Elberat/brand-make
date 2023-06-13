@@ -1,0 +1,155 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./Inter/Light/Inter-Light.woff2') format('woff2'),
+    url('./Inter/Light/Inter-Light.ttf') format('truetype');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('./Inter/Light/Inter-Light-Latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./Inter/Regular/Inter-Regular.eot');
+  src: url('./Inter/Regular/Inter-Regular.woff2') format('woff2'),
+    url('./Inter/Regular/Inter-Regular.ttf') format('truetype');
+
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('./Inter/Regular/Inter-Regular-Latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./Inter/Medium/Inter-Medium.woff2') format('woff2'),
+    url('./Inter/Medium/Inter-Medium.ttf') format('truetype');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('./Inter/Medium/Inter-Medium-Latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v12/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa2JL7W0Q5n-wU.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./Inter/Bold/Inter-Bold.woff2') format('woff2'),
+    url('./Inter/Bold/Inter-Bold.ttf') format('truetype');
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('./Inter/Bold/Inter-Bold-Latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./Ubuntu/Medium/Ubuntu-Medium.eot');
+  src: url('./Ubuntu/Medium/Ubuntu-Medium.eot?#iefix') format('embedded-opentype'),
+    url('./Ubuntu/Medium/Ubuntu-Medium.woff2') format('woff2'),
+    url('./Ubuntu/Medium/Ubuntu-Medium.ttf') format('truetype'),
+    url('./Ubuntu/Medium/Ubuntu-Medium.svg#Ubuntu-Medium') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* latin regular */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./Ubuntu/Regular/Ubuntu-Regular.eot');
+  src: url('./Ubuntu/Regular/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./Ubuntu/Regular/Ubuntu-Regular.woff2') format('woff2'),
+    url('./Ubuntu/Regular/Ubuntu-Regular-latin.woff') format('woff'),
+    url('./Ubuntu/Regular/Ubuntu-Regular.ttf') format('truetype'),
+    url('./Ubuntu/Regular/Ubuntu-Regular.svg#Ubuntu-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+/* cyrillic regular */
+@font-face {
+  font-family: 'Ubuntu';
+  src: url('./Ubuntu/Regular/Ubuntu-Regular.eot');
+  src: url('./Ubuntu/Regular/Ubuntu-Regular.eot?#iefix') format('embedded-opentype'),
+    url('./Ubuntu/Regular/Ubuntu-Regular.woff2') format('woff2'),
+    url('./Ubuntu/Regular/Ubuntu-Regular-cyrillic.woff') format('woff'),
+    url('./Ubuntu/Regular/Ubuntu-Regular.ttf') format('truetype'),
+    url('./Ubuntu/Regular/Ubuntu-Regular.svg#Ubuntu-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

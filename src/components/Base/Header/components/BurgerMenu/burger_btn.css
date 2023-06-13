@@ -1,0 +1,33 @@
+.burgerButton {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  z-index: inherit;
+}
+
+.burgerButton.is-active .line:nth-child(2) {
+  opacity: 0;
+}
+
+.burgerButton .line {
+  transition-delay: 0.2s;
+}
+
+.burgerButton.is-active .line:nth-child(1) {
+  transform: translateY(10px) rotate(45deg);
+}
+
+.burgerButton.is-active .line:nth-child(3) {
+  transform: translateY(-4px) rotate(-45deg);
+}
+
+.line {
+  width: 28px;
+  height: 3px;
+  background-color: var(--yellow);
+  display: block;
+  margin: 4px auto;
+  transition: all 0.3s ease-in-out;
+}

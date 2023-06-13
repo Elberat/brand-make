@@ -1,0 +1,20 @@
+.outlined {
+  border: 2px solid var(--yellow);
+  color: var(--white);
+  background-color: transparent;
+  box-sizing: border-box;
+  font-size: 17px;
+  height: 52px;
+}
+.outlined:hover {
+  box-shadow: 0 0 12px 0 var(--yellow-secondary);
+}
+input{
+  outline: none;
+}
+.label {
+  color: var(--white);
+  background: none;
+  padding-bottom: 15px;
+  margin: 0
+}

@@ -1,0 +1,52 @@
+.container input{
+  border: 2px solid var(--yellow);
+  color: var(--white);
+  background-color: transparent;
+  box-sizing: border-box;
+  font-size: 17px;
+  height: 52px;
+  margin-bottom: 15px;
+  outline: none;
+}
+
+.container input:hover {
+  box-shadow: 0 0 12px 0 var(--yellow-secondary);
+}
+.container {
+  position: relative;
+}
+
+.label {
+  color: var(--white);
+  background: none;
+  padding-bottom: 15px;
+  margin: 0
+}
+.required {
+  position: absolute;
+  top: 55px;
+  color:red;
+  padding-left: 40px;
+  font-size: 14px;
+}
+.containerError input{
+  border: 2px solid red;
+  color: var(--white);
+  background-color: transparent;
+  box-sizing: border-box;
+  font-size: 17px;
+  height: 52px;
+  margin-bottom: 15px;
+  outline: none;
+}
+.containerError {
+  position: relative;
+}
+.container>div>div{
+  margin-bottom: 16px;
+}
+
+.containerError>div>div{
+  margin-bottom: 16px;
+}
+

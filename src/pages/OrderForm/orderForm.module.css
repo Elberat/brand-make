@@ -1,0 +1,35 @@
+.container {
+  border: 1px solid var(--white);
+  padding: 0 30px 35px;
+  width: 570px;
+  margin: 0 auto;
+}
+
+.container>h2 {
+  text-align: center;
+}
+
+form>input {
+  margin-bottom: 15px;
+}
+
+form>button {
+  margin-top: 30px;
+}
+input{
+  outline: none;
+}
+
+.label {
+  color: var(--white);
+  background: none;
+  padding-bottom: 15px;
+  margin: 0
+}
+
+@media all and (max-width:677px){
+  .container{
+    margin: 0 30px;
+    width: auto
+  }
+}
